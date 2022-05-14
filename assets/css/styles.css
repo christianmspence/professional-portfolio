@@ -26,11 +26,18 @@ body {
 }
 
 h2,
-h3 {
+h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--color-three);
     font-weight: bold;
     text-align: center;
+}
+
+h3 {
+    color: var(--color-three);
+    font-weight: italic;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 header {
@@ -93,10 +100,8 @@ header nav ul li a:hover {
 }
 
 
-.about,
 .con,
-.work h2,
-.works img {
+.about p {
     margin: auto;
     width: 65%;
     border: solid 1px var(--color-two);
@@ -112,25 +117,67 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
-.work h2 {
+.work h2,
+.about-head {
+    margin: auto;
+    width: 100%;
+    border: solid 1px var(--color-two);
+    padding: 20px;
+    background-color: rgba(252, 68, 69, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
+.works h3 {
+    margin-top: 25px;
+}
+
 .works {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .works img {
-    width: 50%;
+    width: 100%;
     height: auto;
+}
+
+.top-work {
+    margin: auto;
+    width: 75%;
+    border: solid 1px var(--color-two);
+    padding: 20px;
+    background-color: rgba(252, 68, 69, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
     margin-bottom: 25px;
-    justify-content: center;
+}
+
+.horiseon,
+.robot-gladiators {
+    margin: auto;
+    width: 37%;
+    border: solid 1px var(--color-two);
+    padding: 20px;
+    background-color: rgba(252, 68, 69, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    display: inline-block;
 
 
 }
+
+
+
+
+
+
+
 
 footer {
     margin-top: 50px;
