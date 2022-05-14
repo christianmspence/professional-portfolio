@@ -20,9 +20,16 @@ html {
 
 body {
 
-    color: #36454F;
+    color: #fffff2;
     font-family: 'Courier New', Courier, monospace;
 
+}
+
+h2,
+h3 {
+    color: var(--color-three);
+    font-weight: bold;
+    text-align: center;
 }
 
 header {
@@ -40,6 +47,7 @@ header {
 
 
 header a {
+    text-align: right;
     text-decoration: none;
     color: var(--color-three);
 }
@@ -80,5 +88,20 @@ header nav ul li a:hover {
     margin: 0;
     text-shadow: 0 0 10px;
     background-color: rgba(0, 0, 0, .02);
+    margin-bottom: 50px;
+}
+
+
+.about,
+.con {
+
+    margin: auto;
+    width: 65%;
+    border: solid 1px var(--color-two);
+    padding: 20px;
+    background-color: rgba(252, 68, 69, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    text-align: center;
 
 }
