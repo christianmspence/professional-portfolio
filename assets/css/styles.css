@@ -20,13 +20,14 @@ html {
 
 body {
 
-    color: #fffff2;
+    color: var(--color-five);
     font-family: 'Courier New', Courier, monospace;
 
 }
 
 h2,
 h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--color-three);
     font-weight: bold;
     text-align: center;
@@ -82,13 +83,15 @@ header nav ul li a:hover {
 .hero h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 75px;
     color: var(--color-two);
     text-align: center;
     margin: 0;
     text-shadow: 0 0 10px;
-    background-color: rgba(0, 0, 0, .02);
-    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, .01);
+    margin-bottom: 300px;
+    margin-top: 150px;
+
 }
 
 
@@ -99,9 +102,17 @@ header nav ul li a:hover {
     width: 65%;
     border: solid 1px var(--color-two);
     padding: 20px;
-    background-color: rgba(252, 68, 69, 0.1);
+    background-color: rgba(252, 68, 69, 0.6);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     text-align: center;
 
+}
+
+.about p {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
 }
